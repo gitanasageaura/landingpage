@@ -17,7 +17,6 @@ body{
     font-family: 'Roboto Condensed', sans-serif;
     height: 100%;
     width: 100%;
-    
 }
 
 nav{
@@ -28,11 +27,12 @@ nav{
 
 }
 .logo{
-    padding: 20px 80px;
+    padding: 20px 70px;
     font-weight: 900;
     font-size: 24px;
     color: hsl(52, 94%, 94%);
     margin: 5px 60px;
+    margin-left: 5em;
 }
 .svglogo{
     width:100px;
@@ -70,20 +70,31 @@ nav ul li a {
     color: hsl(52, 94%, 94%);
     font-weight: 600;
 }
+.box{
+    background-color: hsl(75, 10%, 40%);
+    height: 400px;
+    padding: 0;
+    margin: -20px
+;
+}
 .maincontent{
     text-align: left;
     padding-left: 20vh;
-    padding-top: 15vh;
+    padding-top: 10vh;
     margin: 20px;
     width: 40vw
 }
 
-h2{
+.welcome{
     font-size: 48px;
+    color: hsl(21,43%,65%);
 }
 
 .maintext{
     font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    font-weight: 500;
 }
 
 
@@ -91,22 +102,125 @@ h2{
     text-decoration: none;
     color: hsl(26, 100%, 92%);
     background-color: hsl(21,43%,65%);
-    padding: 5px 20px;
+    padding: 10px 40px;
     border: 0px solid hsl(21,43%,65%);
     border-radius: 6px;
-    margin-left: 8.5em;
-    font-weight: 700;
-    transition: 0.3s ease-out;
+    margin-left: 13em;
+    margin-top: 800px;
+    font-weight: 900;
+    transition: 0.3s;
+    cursor: pointer;
 }
 
 .signupbtn:hover{
-    color: hsl(24,43%,76%);
-    background-color: ;
+    color: hsl(21,43%,65%);
+    background-color: hsl(24,43%,76%);
+}
+
+.mainimg{
+    margin:50px;
+    position: absolute;
+    margin-left: 900px;
+    margin-top: -250px;
+}
+
+.gallerytitle{
+    text-align: center;
+    width: 100%;
+    padding: 50px;
+    padding-bottom: 20px;
+    background-color: hsl(52, 94%, 94%);
+}
+.gallery{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(52, 94%, 94%);
+}
+
+.mind, .body, .spirit{
+    justify-content: space-between;
+    align-items: center;
+    border: 5px solid hsl(75, 10%, 40%);
+    border-radius: 10px;
+    margin: 30px 50px 50px 50px;
+}
+.subtitle{
+    text-align: center;
+    background-color: hsl(60,12%,68%);
+    padding: 10px;
+    margin-top: -4px;
+    color: hsl(75, 10%, 40%);
+    font-weight: 800;
+    font-size: 24px;
 }
 
 
+.quote{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(24,43%,76%);
+    height: 200px;
+}
 
+.quotetext{
+    text-align: center;
+    align-items: center;
+    margin: 60px 200px;
+    font-style: italic;
+    font-size: 30px;
+}
 
+.acknowledgement{
+    text-align: right;
+    margin-left: 85em;
+    margin-top: -50px;
+    font-weight: 600;
+}
+
+.signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.signupbox{
+    background-color: rgb(165, 165, 141);
+    border: 0px;
+    border-radius: 15px;
+    width: 70vw;
+    height: 150px;
+}
+
+.signuptext{
+    text-align: left;
+    margin: 50px 0px 0px 80px;
+    font-weight: 400;
+    font-size: 20px;
+    width: 40vw;
+}
+
+.two {
+    text-decoration: none;
+    color: hsl(26, 100%, 92%);
+    background-color: hsl(21,43%,65%);
+    padding: 10px 40px;
+    border: 0px solid hsl(21,43%,65%);
+    border-radius: 6px;
+    margin-left: 65em;
+    margin-top: -8emx;
+    font-weight: 900;
+    transition: 0.3s;
+    cursor: pointer;
+    position: relative;
+}
+    
+.two:hover{
+    color: hsl(21,43%,65%);
+    background-color: hsl(24,43%,76%);
+}
 
 footer{
     background-color: hsl(75, 10%, 40%);
@@ -114,7 +228,7 @@ footer{
     height: 70px;
     width: 100%;
     bottom: 0;
-    position: absolute;
+    position: relative;
 }
 
 .footertext{

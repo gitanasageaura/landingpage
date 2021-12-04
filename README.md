@@ -12,3 +12,6 @@ Jay Mantri
 Thomas Kelley
 
 Svg -https://all-free-download.com/free-vector/download/mountain_landscape_icons_retro_flat_design_6850930.html
+
+Quote by Sadhguru
+https://isha.sadhguru.org/us/en/wisdom/quotes?date=november-28-2021
