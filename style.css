@@ -192,11 +192,12 @@ nav ul li a {
     border-radius: 15px;
     width: 70vw;
     height: 150px;
+    display: flex;
 }
 
 .signuptext{
     text-align: left;
-    margin: 50px 0px 0px 80px;
+    margin: 3em 1em 1em 4em;
     font-weight: 400;
     font-size: 20px;
     width: 40vw;
@@ -207,10 +208,9 @@ nav ul li a {
     color: hsl(26, 100%, 92%);
     background-color: hsl(21,43%,65%);
     padding: 10px 40px;
-    border: 0px solid hsl(21,43%,65%);
+    border: 2px solid hsl(26, 100%, 92%);
     border-radius: 6px;
-    margin-left: 65em;
-    margin-top: -8emx;
+    margin: 3em 1em 3.5em 12em;
     font-weight: 900;
     transition: 0.3s;
     cursor: pointer;
@@ -220,6 +220,7 @@ nav ul li a {
 .two:hover{
     color: hsl(21,43%,65%);
     background-color: hsl(24,43%,76%);
+    border: 2px solid hsl(21,43%,65%);
 }
 
 footer{
