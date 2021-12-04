@@ -1,7 +1,7 @@
 /* DOG 74, 32, 32 
 KB 88, 38, 15
-CS 52, 94, 94
-F 32, 65, 62
+CS 52, 94, 94 hsl(52, 94%, 94%)
+F 32, 65, 62  hsl(32, 65%, 62%);
 LD 28, 67, 44
 T 30, 52, 72
 */
@@ -17,11 +17,12 @@ body{
     font-family: 'Roboto Condensed', sans-serif;
     height: 100%;
     width: 100%;
+    
 }
 
 nav{
     width: 100vw;
-    background-color: hsl(88, 38%, 15%);
+    background-color: hsl(75, 10%, 40%);
     display: flex;
     align-items: center;
 
@@ -33,10 +34,22 @@ nav{
     color: hsl(52, 94%, 94%);
     margin: 5px 60px;
 }
-
+.svglogo{
+    width:100px;
+    height:auto;
+    
+}
+.svgimg{
+    width:70px;
+    height: 80px;
+    position: relative;
+    padding: 10px;
+    margin-left: 10rem;
+}
 .links{
     display: flex;
-    margin: 5px 100px;
+    margin-top: 5px;
+    margin-left: 600px;
 }
 
 nav ul li{
@@ -45,6 +58,7 @@ nav ul li{
     cursor: pointer;
     transition: 0.3s ease-out;
     padding: 15px 40px;
+    margin-left: 20px;
     
 }
 
@@ -56,22 +70,51 @@ nav ul li a {
     color: hsl(52, 94%, 94%);
     font-weight: 600;
 }
+.maincontent{
+    text-align: left;
+    padding-left: 20vh;
+    padding-top: 15vh;
+    margin: 20px;
+    width: 40vw
+}
+
+h2{
+    font-size: 48px;
+}
+
+.maintext{
+    font-size: 18px;
+}
 
 
+.signupbtn{
+    text-decoration: none;
+    color: hsl(26, 100%, 92%);
+    background-color: hsl(21,43%,65%);
+    padding: 5px 20px;
+    border: 0px solid hsl(21,43%,65%);
+    border-radius: 6px;
+    margin-left: 8.5em;
+    font-weight: 700;
+    transition: 0.3s ease-out;
+}
 
+.signupbtn:hover{
+    color: hsl(24,43%,76%);
+    background-color: ;
+}
 
 
 
 
 
 footer{
-    background-color: hsl(88, 38%, 15%);
+    background-color: hsl(75, 10%, 40%);
     padding: 25px;
     height: 70px;
     width: 100%;
     bottom: 0;
     position: absolute;
-    
 }
 
 .footertext{
