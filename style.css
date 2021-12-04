@@ -1,0 +1,81 @@
+/* DOG 74, 32, 32 
+KB 88, 38, 15
+CS 52, 94, 94
+F 32, 65, 62
+LD 28, 67, 44
+T 30, 52, 72
+*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+nav{
+    width: 100vw;
+    background-color: hsl(88, 38%, 15%);
+    display: flex;
+    align-items: center;
+
+}
+.logo{
+    padding: 20px 80px;
+    font-weight: 900;
+    font-size: 24px;
+    color: hsl(52, 94%, 94%);
+    margin: 5px 60px;
+}
+
+.links{
+    display: flex;
+    margin: 5px 100px;
+}
+
+nav ul li{
+    list-style-type: none;
+    color: hsl(52, 94%, 94%);
+    cursor: pointer;
+    transition: 0.3s ease-out;
+    padding: 15px 40px;
+    
+}
+
+nav ul li:hover{
+    transform: scale(1);
+}
+nav ul li a {
+    text-decoration: none;
+    color: hsl(52, 94%, 94%);
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+footer{
+    background-color: hsl(88, 38%, 15%);
+    padding: 25px;
+    height: 70px;
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+    
+}
+
+.footertext{
+    color: hsl(52, 94%, 94%);
+    position: relative;
+    text-align: center;
+}
